@@ -213,10 +213,45 @@
     width: 200px;
     height: 300px;
     align-items: center;
-    background-color: white;  
-    padding: 10px;
+    background-color: white; 
+    box-sizing: border-box; 
+    padding: 30px;
     text-align: center; 
     gap: 10px;
     box-shadow: 5px 5px 5px 1.2px gray;
     border-radius: 5px;
+}
+
+/* footer starts */
+.footer-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logoflex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-content{
+    width: 150px;
+}
+.social-image{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.contact{
+    margin-bottom: 10px ;
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
 }
