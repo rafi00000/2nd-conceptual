@@ -189,3 +189,34 @@
     border: none;
     cursor: pointer;
 }
+
+/* blog */
+
+.blog-title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.blog{
+    color: orangered;
+}
+.blog-cards{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    background-color: white;  
+    padding: 10px;
+    text-align: center; 
+    gap: 10px;
+    box-shadow: 5px 5px 5px 1.2px gray;
+    border-radius: 5px;
+}
