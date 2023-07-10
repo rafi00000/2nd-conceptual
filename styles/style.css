@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .logo-span{
     color: Blue;
     font-size: 30px;
@@ -33,7 +34,6 @@
 .banner-container{
     height: 100vh;
     background-image: url("/image/background.jpg");
-    background-image: linear-gradient(45deg, rgb(116, 109, 109), rgb(58, 53, 53));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,6 +42,7 @@
     text-align: center;
     display: flex;
     align-items: center;
+    color: white;
 }
 .banner-content{
     margin: 10px;
@@ -161,14 +162,30 @@
 }
 /* ends */
 
-.service-contact-container{
+.appointment-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width:70%;
+    margin: auto;
+    padding: 20px;
+    background-color:rgba(228, 25, 25, 0.8);
+    border-radius: 10px;
+    margin-top:-50px;
     align-items: center;
-    padding: 30px;
 }
-
-.service-contact-container-phone{
+.phone-call
+{
     display: flex;
-
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.appointment-desc{
+    width: 35%;
+}
+.btn{
+    padding: 10px;
+    background-color:greenyellow;
+    border: none;
+    cursor: pointer;
 }
