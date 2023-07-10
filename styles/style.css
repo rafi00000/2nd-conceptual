@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.logo-span{
+    color: Blue;
+    font-size: 30px;
+    
+}
+.menu-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: gray;
+}
+.menu-parent{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+/* utility */
+
+.orange-text{
+    color: orangered;
+}
+
+/* banner design starts here */
+
+.banner-container{
+    height: 100vh;
+    background-image: url("/image/background.jpg");
+    background-image: linear-gradient(45deg, rgb(116, 109, 109), rgb(58, 53, 53));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    margin: 10px;
+}
+.banner-title span{
+    color: orangered;
+}
+
+.banner-content h1{
+    font-size: 70px;
+}
+.banner-content p{
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+}
+.btn-primary{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: red;
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+}
+.btn1:hover{
+    background-color: white;
+    border: red 1px solid;
+    color: black;
+    transition: ease-in 0.5s;
+}
+.btn2:hover{
+    background-color: red;
+    color: white;
+    transition: ease-in 0.5s;
+    border: 1px solid white;
+}
+
+/* banner section ends */
+
+/* service section starts */
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(12, 12, 12));
+    padding: 25px;
+}
+
+.author-profile{
+    display: flex;
+    margin-top: 20px;
+}
+.author-profile img{
+    margin-left: -10;
+}
+
+.service-left-container span{
+    color: orangered;
+}
+
+.service-primary-btn{
+    width: 110px;
+    padding: 12px;
+    background-color: white;
+    color:black;
+    border:none;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.service-description{
+    width:50%;
+    margin-bottom: 20px;
+}
+.author-decription{
+    margin-left: 20px;
+    width: 150px;
+    border-right: 1px solid red;
+    margin-right: 20px;
+}
